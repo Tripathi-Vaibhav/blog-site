@@ -6,12 +6,20 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Vaibhav Tripathi",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.3",
     "ejs": "^2.6.1",
-    "express": "^4.16.3",
-    "lodash": "^4.17.11"
-  }
+    "express": "^4.17.1",
+    "lodash": "^4.17.15"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tripathi-Vaibhav/blog-site.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Tripathi-Vaibhav/blog-site/issues"
+  },
+  "homepage": "https://github.com/Tripathi-Vaibhav/blog-site#readme"
 }
