@@ -2,9 +2,9 @@
 
 <h1>  Home </h1>
 <p> <%= start %> </p>
-<% for(var i=0; i<newPosts.length; i++){ %>
-    <% console.log(newPosts[i].title); %>
-<% } %>
+<% newPosts.forEach(function(post){ %>
+  <% console.log(post.title); %>
+<% }); %>
 
 
 <%- include("partials/footer") %>
