@@ -4,8 +4,8 @@
 <p> <%= start %> </p>
 <% newPosts.forEach(function(post){ %>
   <h1> <%= post.title %> </h1>
-  <p> <%= post.message %> </p>
-<% }); %>
+  <p> <%= post.message.substring(0, 100) + " ..." %>  </p>
 
+<% }); %>
 
 <%- include("partials/footer") %>
