@@ -3,7 +3,8 @@
 <h1>  Home </h1>
 <p> <%= start %> </p>
 <% newPosts.forEach(function(post){ %>
-  <% console.log(post.title); %>
+  <h1> <%= post.title %> </h1>
+  <p> <%= post.message %> </p>
 <% }); %>
 
 
