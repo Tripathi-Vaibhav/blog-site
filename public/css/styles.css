@@ -15,6 +15,12 @@
     color: #1abc9c !important;
 }
 
+.compose-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
 .footer-padding {
 	padding-bottom: 60px;
 }
